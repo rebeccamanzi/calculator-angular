@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ola-mundo"
+    }
+  },
+  "defaultProject": "ola-mundo",
+  "cli": {
+    "analytics": "b4b067f4-3780-4fab-a2dc-d07120795686"
+  }
 }
