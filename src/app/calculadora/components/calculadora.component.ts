@@ -1,13 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 
+import { CalculadoraService } from '../services/calculadora.service';
+
 @Component({ 
   selector: 'app-calculadora', // nome da tag
   templateUrl: './calculadora.component.html', // html
   styleUrls: ['./calculadora.component.css'] // css
 })
+
 export class CalculadoraComponent implements OnInit {
 
-  constructor() { }
+  constructor(private calculadoraService: CalculadoraService) { }
+  // atributo 'calculadoraService'
 
   ngOnInit(): void {
   }
